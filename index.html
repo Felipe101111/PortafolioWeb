@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Felipe Alonso — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@300;400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#hero">Felipe<span>.Alonso()</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre mí</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div style="max-width:1200px; margin:0 auto; position:relative; width:100%;">
+      <p class="hero-tag">// Desarrollador de Software</p>
+      <h1 class="hero-name">
+        Felipe<br/>
+        <em>Alonso</em>
+      </h1>
+      <p class="hero-subtitle">
+        <span id="typed-text"></span><span class="typed-cursor"></span>
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#projects">Ver Proyectos</a>
+        <a class="btn btn-ghost" href="#contact">Contactarme</a>
+      </div>
+
+      <!-- floating code snippet -->
+      <div class="hero-code">
+        <span class="c-muted">// about me</span><br/>
+        <span class="c-green">const</span> <span class="c-white">dev</span> = {<br/>
+        &nbsp;&nbsp;name: <span class="c-green">"Felipe Alonso"</span>,<br/>
+        &nbsp;&nbsp;role: <span class="c-green">"Full Stack Dev"</span>,<br/>
+        &nbsp;&nbsp;available: <span class="c-green">true</span>,<br/>
+        &nbsp;&nbsp;coffee: <span class="c-green">Infinity</span><br/>
+        };<br/><br/>
+        <span class="c-green">export default</span> <span class="c-white">dev</span>;
+      </div>
+
+      <p class="hero-scroll">Scroll para explorar</p>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="about-content reveal">
+      <p class="section-label">// 01. Sobre mi</p>
+      <h2 class="section-title">Código limpio,<br/>soluciones reales.</h2>
+      <p class="about-text">
+        Soy un desarrollador apasionado por construir experiencias digitales que combinen funcionalidad y diseño. Me especializo en crear aplicaciones web modernas, escalables y con un código que sea tan claro como efectivo.
+      </p>
+      <p class="about-text">
+        Cuando no estoy programando, estoy aprendiendo nuevas tecnologías, contribuyendo a proyectos open source o explorando ideas que mezclan creatividad con ingeniería.
+      </p>
+      <div class="about-stats">
+        <div class="stat-item">
+          <div class="stat-num">+5</div>
+          <div class="stat-label">Proyectos</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">3yr</div>
+          <div class="stat-label">Experiencia</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-num">∞</div>
+          <div class="stat-label">Cafés</div>
+        </div>
+      </div>
+    </div>
+
+    <img class="about-img-placeholder reveal" src="WhatsApp Image 2026-05-05 at 3.04.22 PM.jpeg" alt="Felipe Alonso" />
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="skills-header reveal">
+      <p class="section-label">// 02. Habilidades</p>
+      <h2 class="section-title">Stack técnico</h2>
+    </div>
+    <div class="skills-grid">
+
+      <div class="skill-card reveal">
+        <div class="skill-category">Frontend</div>
+        <div class="skill-name">Interfaces de Usuario</div>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">React</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">Tailwind</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-category">Backend</div>
+        <div class="skill-name">Lógica del Servidor</div>
+        <div class="skill-tags">
+          <span class="tag">Node.js</span>
+          <span class="tag">Python</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">Express</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-category">DevOps & Tools</div>
+        <div class="skill-name">Entorno y Despliegue</div>
+        <div class="skill-tags">
+          <span class="tag">Git</span>
+          <span class="tag">GitHub</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Linux</span>
+          <span class="tag">Vercel</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-category">Databases</div>
+        <div class="skill-name">Gestión de Datos</div>
+        <div class="skill-tags">
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">MongoDB</span>
+          <span class="tag">Firebase</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="projects-header reveal">
+      <p class="section-label">// 03. Proyectos</p>
+      <h2 class="section-title">Trabajo seleccionado</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal">
+        <div class="project-img">⚙️</div>
+        <div class="project-body">
+          <div class="project-num">// Proyecto 01</div>
+          <h3 class="project-title">Nombre del Proyecto</h3>
+          <p class="project-desc">
+            Descripción breve del proyecto. Qué problema resuelve y qué tecnologías usaste para construirlo.
+          </p>
+          <div class="skill-tags" style="margin-bottom:1.25rem;">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <div class="project-links">
+            <a class="project-link" href="#">- Demo</a>
+            <a class="project-link" href="#">- GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">⚙️</div>
+        <div class="project-body">
+          <div class="project-num">// Proyecto 02</div>
+          <h3 class="project-title">Nombre del Proyecto</h3>
+          <p class="project-desc">
+            Descripción breve del proyecto. Qué problema resuelve y qué tecnologías usaste para construirlo.
+          </p>
+          <div class="skill-tags" style="margin-bottom:1.25rem;">
+            <span class="tag">Python</span>
+            <span class="tag">FastAPI</span>
+            <span class="tag">Docker</span>
+          </div>
+          <div class="project-links">
+            <a class="project-link" href="#">- Demo</a>
+            <a class="project-link" href="#">- GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-card reveal">
+        <div class="project-img">🚀</div>
+        <div class="project-body">
+          <div class="project-num">// Proyecto 03</div>
+          <h3 class="project-title">Nombre del Proyecto</h3>
+          <p class="project-desc">
+            Descripción breve del proyecto. Qué problema resuelve y qué tecnologías usaste para construirlo.
+          </p>
+          <div class="skill-tags" style="margin-bottom:1.25rem;">
+            <span class="tag">TypeScript</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">MongoDB</span>
+          </div>
+          <div class="project-links">
+            <a class="project-link" href="#">- Demo</a>
+            <a class="project-link" href="#">- GitHub</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="reveal">
+      <p class="section-label">// 04. Contacto</p>
+      <h2 class="section-title">¿Hablamos?</h2>
+      <p class="contact-sub">
+        Estoy abierto a nuevas oportunidades, proyectos freelance o simplemente charlar sobre tecnología.
+      </p>
+      <a class="contact-email" href="mailto:felipevical@gmail.com">felipevical@gmail.com</a>
+      <div class="social-row">
+        <a class="social-link" href="https://github.com/Felipe101111">GitHub</a>
+        <a class="social-link" href="#">LinkedIn</a>
+        <a class="social-link" href="#">Twitter/X</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <span>Felipe Alonso</span>
+    <span>Diseñado & desarrollado con <span>♥</span> — <span id="year"></span></span>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
