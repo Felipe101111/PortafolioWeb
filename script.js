@@ -1,5 +1,4 @@
-// ── YEAR
-document.getElementById('year').textContent = new Date().getFullYear();
+
 
 // ── CURSOR
 const cursor = document.getElementById('cursor');
@@ -58,7 +57,7 @@ window.addEventListener('scroll', () => {
   document.querySelectorAll('section').forEach(s => {
     if (y >= s.offsetTop && y < s.offsetTop + s.offsetHeight) {
       navLinks.forEach(a => {
-        a.style.color = a.getAttribute('href') === '#' + s.id ? 'var(--green)' : '';
+        a.style.color = a.getAttribute('href') === '#' + s.id ? 'var(--verde)' : '';
       });
     }
   });
